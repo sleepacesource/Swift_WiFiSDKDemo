@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#import "GCDAsyncSocket.h"
-#import "GCDAsyncUdpSocket.h"
-#import "SLPLTcp.h"
-#import "SLPTCPDelegate.h"
+#import "SLPLTcpManager.h"
+#import "SLPLTcpManager+Public.h"
+#import "SLPLTcpManager+TWP.h"
+#import "SLPLTcpDef.h"
+#import "SLPLTcpHeads.h"
 

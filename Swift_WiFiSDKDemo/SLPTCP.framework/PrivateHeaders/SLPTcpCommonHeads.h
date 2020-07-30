@@ -10,6 +10,9 @@
 #define SLPTcpCommonHeads_h
 
 #import "SLPLTcpCommon.h"
+#import "SLPTools.h"
 #import <SLPCommon/SLPCommon.h>
+#import "SLPDeviceOperationHead.h"
+
 
 #endif /* SLPTcpCommonHeads_h */

@@ -10,23 +10,59 @@
 		</data>
 		<key>Headers/KFLoger.h</key>
 		<data>
-		v9d+jpW68RwUrbhtgDwmbL2vi9Y=
+		dtUXt6nqnqt1wXT4ZKuboIbl9Yk=
+		</data>
+		<key>Headers/Loop.h</key>
+		<data>
+		VeuG62oRraAWJASxHsqg32FqOOQ=
+		</data>
+		<key>Headers/SLPAidInfo.h</key>
+		<data>
+		sTCj8AR0jXbon4toh7jCTZ1yqss=
+		</data>
+		<key>Headers/SLPAlarmInfo.h</key>
+		<data>
+		WJJ251fmcNG0L/0//8FwTFeDcrs=
+		</data>
+		<key>Headers/SLPClockDormancyBean.h</key>
+		<data>
+		LA8vA9GmDdhyxy/5F6BwCEO0TMo=
 		</data>
 		<key>Headers/SLPCommon.h</key>
 		<data>
-		79xME/IkHKuPT14+VI9A+kY9cPc=
+		ilW73oOA8FegCooprwvH65ijP7I=
 		</data>
 		<key>Headers/SLPDataTransferCommon.h</key>
 		<data>
-		dAr7TgdHo4T+zlhRDHyBGRFI54Y=
+		0CTpVvDLXGm31SCQlucDvFWpLDQ=
 		</data>
 		<key>Headers/SLPDataTransferDef.h</key>
 		<data>
-		Znrm06UbPEqtehlIcXNVq5xmx7o=
+		/oQY0Pau0EIobzpI4TfV/NNbr8s=
 		</data>
 		<key>Headers/SLPDeviceInfo.h</key>
 		<data>
 		sFYp54vqngiBTk9/3nia2uvS3qY=
+		</data>
+		<key>Headers/SLPDeviceUpdateVersion.h</key>
+		<data>
+		IOnER/oqTAV3i6VpMw4laWLnyPQ=
+		</data>
+		<key>Headers/SLPHTTPManager.h</key>
+		<data>
+		iLWiSeKL/Ybs/OipvhzRon/HErw=
+		</data>
+		<key>Headers/SLPLight.h</key>
+		<data>
+		kxfUKnbtvT2EaB/5wP/AYQKfYEc=
+		</data>
+		<key>Headers/SLPSleepaceMusicInfo.h</key>
+		<data>
+		K2kialata7SijhBh4eSclKLgfrs=
+		</data>
+		<key>Headers/SLPTimeInfo.h</key>
+		<data>
+		ssWeJUgzRMEyNscB4sO3Np54ttA=
 		</data>
 		<key>Headers/SLPTimer.h</key>
 		<data>
@@ -34,11 +70,11 @@
 		</data>
 		<key>Headers/SLPTools.h</key>
 		<data>
-		hITy6njjvBMam4Mgm3ZZapedTxU=
+		BpDYha+hPI4Qo+aLcDTeCRwcIL0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+7jGU2hiB4ws3jqetsysfh2hAKA=
+		d+2dK1fhWckyMMjmBN1UjnBCQH8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,44 +98,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v9d+jpW68RwUrbhtgDwmbL2vi9Y=
+			dtUXt6nqnqt1wXT4ZKuboIbl9Yk=
 			</data>
 			<key>hash2</key>
 			<data>
-			LafKDS+eAmudl6CxC8m6EyjIS9yFjRiWE++apRS5p48=
+			1z+z3Jxaj7kTgDCVUHA1x8buLib0aribIeiJc4bRiJ0=
+			</data>
+		</dict>
+		<key>Headers/Loop.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VeuG62oRraAWJASxHsqg32FqOOQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			68tnx+S33PKQRnejo8cT4L7rr+NN7iv9ju0U11VUX7s=
+			</data>
+		</dict>
+		<key>Headers/SLPAidInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sTCj8AR0jXbon4toh7jCTZ1yqss=
+			</data>
+			<key>hash2</key>
+			<data>
+			G/MGTJuW3U2R7W+GsrhXf+cJKgAshgR6ilwilKv52uU=
+			</data>
+		</dict>
+		<key>Headers/SLPAlarmInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WJJ251fmcNG0L/0//8FwTFeDcrs=
+			</data>
+			<key>hash2</key>
+			<data>
+			23U65C0x6/KuATIUsVcHgcfIVzknc/J8h0L1SG+qBJ4=
+			</data>
+		</dict>
+		<key>Headers/SLPClockDormancyBean.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LA8vA9GmDdhyxy/5F6BwCEO0TMo=
+			</data>
+			<key>hash2</key>
+			<data>
+			rnTrRS7XF9sFwoxA6eQQlmrrTgijb8fHuZXyMa3+t2o=
 			</data>
 		</dict>
 		<key>Headers/SLPCommon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			79xME/IkHKuPT14+VI9A+kY9cPc=
+			ilW73oOA8FegCooprwvH65ijP7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			TBBB+xKuRJRAn4xU0A/vjXxThT7Tf89Oz8PKZS0m/2U=
+			TCGmT84EcCnmzfX85Ju81NfFhZhkxdcVkV0OnuytlfE=
 			</data>
 		</dict>
 		<key>Headers/SLPDataTransferCommon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dAr7TgdHo4T+zlhRDHyBGRFI54Y=
+			0CTpVvDLXGm31SCQlucDvFWpLDQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			FaDkLK4eleYOWJN4uZCpsdzT8uvkZPV7sy0ydkPT7/8=
+			0iAvHIzdpnmq3c6jKxcGIxB9iO/8Qd/UGtqZ26UChrw=
 			</data>
 		</dict>
 		<key>Headers/SLPDataTransferDef.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Znrm06UbPEqtehlIcXNVq5xmx7o=
+			/oQY0Pau0EIobzpI4TfV/NNbr8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			XhW5kBGR6kGnrIpGz+CBRNf4tj+fwitM0AWCG4InlYc=
+			Wkcqk93PWNIsBy9bumH/1qRSN2BHxtdZEUz6VEC3kjw=
 			</data>
 		</dict>
 		<key>Headers/SLPDeviceInfo.h</key>
@@ -111,6 +191,61 @@
 			<key>hash2</key>
 			<data>
 			G4kpU0vHhTsnO2qS5ojV3uruNE9mgbstsF7jvQm2sSs=
+			</data>
+		</dict>
+		<key>Headers/SLPDeviceUpdateVersion.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IOnER/oqTAV3i6VpMw4laWLnyPQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			vI1bcS5NZ6yMKDSk51NG//LuIRwwdJ0cYoFHoHIUXho=
+			</data>
+		</dict>
+		<key>Headers/SLPHTTPManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iLWiSeKL/Ybs/OipvhzRon/HErw=
+			</data>
+			<key>hash2</key>
+			<data>
+			hl7A9UdlgkOt0BLN+iFX/s5dTqyarUQL9y3P+TwlR8Q=
+			</data>
+		</dict>
+		<key>Headers/SLPLight.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kxfUKnbtvT2EaB/5wP/AYQKfYEc=
+			</data>
+			<key>hash2</key>
+			<data>
+			JrirdHOnhFpMF3feptsO5sGx774nstku6yF7e8M6UhM=
+			</data>
+		</dict>
+		<key>Headers/SLPSleepaceMusicInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K2kialata7SijhBh4eSclKLgfrs=
+			</data>
+			<key>hash2</key>
+			<data>
+			uVG1QN9PrPSIZUczNibagWVrvnpOoSc0fMBaRi70hOo=
+			</data>
+		</dict>
+		<key>Headers/SLPTimeInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ssWeJUgzRMEyNscB4sO3Np54ttA=
+			</data>
+			<key>hash2</key>
+			<data>
+			D/x+G45NWacnmiWwrXczI7GZBrusqvTHi3wfVGGlV84=
 			</data>
 		</dict>
 		<key>Headers/SLPTimer.h</key>
@@ -128,11 +263,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hITy6njjvBMam4Mgm3ZZapedTxU=
+			BpDYha+hPI4Qo+aLcDTeCRwcIL0=
 			</data>
 			<key>hash2</key>
 			<data>
-			YJiyTKCoUkp9sc0ENwY4xI+WOWumZJBRhYOFTPoajP8=
+			zl2YgOX8Kbdjfzf+1r7HoPIjErOGJ8BlJSCdsT4286M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -149,7 +284,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -180,24 +315,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -233,13 +356,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

@@ -19,6 +19,7 @@
 @interface SLPLTcpSendPacket : NSObject
 @property (nonatomic,weak) id<SLPLTcpSendPacketDelegate> delegate;
 
+@property (nonatomic,strong) NSString *deviceID;//设备ID
 @property (nonatomic,assign) UInt32 channelID;//通道号: 变更为作设备ID使用
 @property (nonatomic,assign) SLPLTCPProtocalVersions protocalType;//协议类型 对应版本
 @property (nonatomic,assign) SLPFramTypes framType;//帧类型

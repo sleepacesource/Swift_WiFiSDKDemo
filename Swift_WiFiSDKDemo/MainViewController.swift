@@ -41,6 +41,8 @@ class MainViewController: UIViewController, UITextFieldDelegate {
     func initData() {
         self.currentDevciceId = "0"
         self.wifiConfig = SLPApWifiConfig.init()
+        
+       
     }
     
     func setUI() -> Void {
@@ -64,6 +66,9 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         
         var airports = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
         airports.updateValue("123", forKey: "456")
+        
+        self.textfield1.text = "SAN"
+        self.textfield2.text = "l123456789"
         
     }
     

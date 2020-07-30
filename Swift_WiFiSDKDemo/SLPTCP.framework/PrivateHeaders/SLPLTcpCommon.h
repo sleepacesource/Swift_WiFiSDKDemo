@@ -58,6 +58,7 @@ typedef NS_ENUM(NSInteger,SLPLTCPMessagetUniqTypes) {
     SLPLTCPMessagetUniqType_NoxRequestRealtimeData,//请求实时数据
     SLPLTCPMessagetUniqType_PublicPostRealtimeData,//实时数据报送
     SLPLTCPMessagetUniqType_PublicPostOriginalData,//原始数据
+    SLPLTCPMessagetUniqType_PublicPostHistoryAnalysisData,//历史分析报告数据报送通知
     SLPLTCPMessagetUniqType_NoxNightLightData,  // 小夜灯
     SLPLTCPMessagetUniqType_NoxConfigureAlbum,
     SLPLTCPMessagetUniqType_NoxDeviceInfo,
@@ -82,10 +83,27 @@ typedef NS_ENUM(NSInteger,SLPLTCPMessagetUniqTypes) {
     SLPLTCPMessagetUniqType_Mattress_QueryCollectionStatus,
     SLPLTCPMessagetUniqType_Mattress_QueryServiceAddress,
     SLPLTCPMessagetUniqType_Mattress_QueryBatteryInfo,
+    SLPLTCPMessagetUniqType_Mattress_QueryEnvInfo,
+    SLPLTCPMessagetUniqType_Mattress_QuerySleepStatus,
     SLPLTCPMessagetUniqType_Mattress_QueryWiFiStatus,
     SLPLTCPMessagetUniqType_Mattress_QueryWiFiList,
     SLPLTCPMessagetUniqType_Mattress_QueryDeviceInfo,
     
+    SLPLTCPMessagetUniqType_EW202W_TimeCheck,
+    SLPLTCPMessagetUniqType_EW202W_GetSystemInfo,
+    SLPLTCPMessagetUniqType_EW202W_FactoryReset,
+    SLPLTCPMessagetUniqType_EW202W_GetOperatingMode,
+    SLPLTCPMessagetUniqType_EW202W_GetAlarmList,
+    SLPLTCPMessagetUniqType_EW202W_ConfigAlarm,
+    SLPLTCPMessagetUniqType_EW202W_PreViewAlarm,
+    SLPLTCPMessagetUniqType_EW202W_LightControl,
+    SLPLTCPMessagetUniqType_EW202W_AlarmMusicOperation,
+    SLPLTCPMessagetUniqType_EW202W_SetClockDormancyBean,
+    SLPLTCPMessagetUniqType_EW202W_GetClockDormancyBean,
+    SLPLTCPMessagetUniqType_EW202W_SetAidInfo,
+    SLPLTCPMessagetUniqType_EW202W_ConfigSystem,
+    SLPLTCPMessagetUniqType_EW202W_GetSystem,
+    SLPLTCPMessagetUniqType_EW202W_PostWorkMode,//EW202W主动发送的工作信息发生改变
     SLPlTCPMessagetUniqType_None,
 };
 
@@ -106,6 +124,7 @@ enum{
     SLP_LTcp_Error_RestonConnectFailed = 0x0d,//RestOn连接失败
     SLP_LTcp_Error_BluetoothBusy = 0x0e,//蓝牙主模块忙
     SLP_LTcp_Error_IsUpgrade = 0x0f,//正在升级
+    SLP_LTcp_Error_ConfigMode = 0x10,//配置模式
     
     SLP_LTcp_Error_UnKnown = 0xff,//未知错误
 };
@@ -118,4 +137,18 @@ enum{
 + (NSString *)descriptionOfMessagetType:(SLPLTCPMessagetUniqTypes)type;
 + (NSString *)entityClassStringFrom:(SLPLTCPMessagetUniqTypes)type;
 
+#pragma mark 获取网络状态
+/**
+ *网络是否可达
+ */
++ (BOOL)isReachable;
+
+/**
+ *网络是否wwan
+ */
++ (BOOL)isReachableViaWWAN;
+/**
+ *网络是否为WiFi
+ */
++ (BOOL)isReachableViaWiFi;
 @end
